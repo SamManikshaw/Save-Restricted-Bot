@@ -13,7 +13,7 @@ def getenv(var): return os.environ.get(var) or DATA.get(var, None)
 
 bot_token = getenv("7340927079:AAGn7zVP5TJyyIeSHfIkHKt7irSlQdbxb5c") 
 api_hash = getenv("aa535109b4e3f0b33b9122b7829e32bb") 
-api_id = getenv(6515159)
+api_id = getenv("6515159")
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = getenv("BQDNvmIAVvcJiOGsFGP43v_2uLXQGQTVKUkG_YuyXymbsRKT8VJbv9_4JNofCGDQ46KfXEwFBmqUa9i_1iQyrS-89IWIgiGYmPJo3rma2akWUKeGGykU_fu1L54h7id1PZU8ad31FtYf4lluIZPHu6raQo6KrGeLSgh0y0-dmsRQ75bhrx6s3EZQL5J5iBX5Of-zrH66yIwHj4PA19SPjqxkXZA_O3ZI_RlDNg0gSSi9VQcMPiWlDNpQmNmzUNMoO4936ihel7XT05ZOMTGJIcLgYe76MemhECLd9npp_Uma_ofQv3SZrPQbGtZBFPNqjuj5LsaPPiyS4NafSTo043IpALWWEwAAAAF8ctxgAA")
